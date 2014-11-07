@@ -1,0 +1,102 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Resume of Freelance Webdesigner | Monin Sergey</title>
+	<meta name="title" content="Resume of Freelance Webdesigner | Monin Sergey" />
+	<meta name="description" content="Resume of Freelance Webdesigner" />
+
+	<link rel="shortcut icon" id="favicon" href="favicon.png"> 
+	<meta name="author" content="Monin S.">
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:300,400,700' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Pacifico:400' rel='stylesheet' type='text/css'>
+	<!--<script type="text/javascript" src="http://code.jquery.com/jquery-1.9.1.js"></script>-->
+        <script type="text/javascript" src="javascript/jquery.js"></script>
+  <script type="text/javascript" src="javascript/jquery.onepage-scroll.js"></script>
+  <script type="text/javascript" src="javascript/Chart.js"></script>
+  <link href='stylesheets/onepage-scroll.css' rel='stylesheet' type='text/css'>
+  <link href='stylesheets/main.css' rel='stylesheet' type='text/css'>
+  <meta name="viewport" content="initial-scale=1, width=device-width, maximum-scale=1, minimum-scale=1, user-scalable=no">
+
+	<script>
+	  $(document).ready(function(){
+      $(".main").onepage_scroll({
+        sectionContainer: "section",
+        responsiveFallback: 600
+      });
+		});
+		
+	</script>
+</head>
+<body>
+  <div class="wrapper">
+	  <div class="main">
+	    
+      <section class="page1">
+        <div class="page_container">
+          <h1>Sergey Monin</h1>
+          <h2>I'm a front-end developer <span class="amp">&amp;</span> web design is my passion. I enjoy making websites for people, <strong>not for robots</strong>.</h2>
+          <p>
+            <ul class="intro">
+              <li>1 year experience as professional web designer.</li>
+              <li>Goal-oriented individual.</li>
+              <li>Organized, highly motivated and a real quick learner.</li>
+              <li>Attention to details.</li>
+              <li>Freelance gave me all these superpowers.</li>
+            </ul>
+          </p>
+  	    </div>
+  	    <!--<img src="gun.gif" alt="phones">-->
+      </section>
+	    
+	    <section class="page2">
+	      <div class="page_container">
+          <h1>Skill level</h1>
+
+		<canvas id="canvas" height="500" width="500"></canvas>
+
+
+	<script>
+
+		var radarChartData = {
+			labels : ["HTML5/Haml","CSS3/Sass","Javascript","Designing","Testing","PHP/MySQL","Wordpress"],
+			datasets : [
+				{
+					fillColor : "rgba(0,0,0,0.5)",
+					strokeColor : "rgba(0,0,0,1)",
+					pointColor : "rgba(0,0,0,1)",
+					pointStrokeColor : "#000",
+					data : [80,90,83,71,83,44,60]
+				}
+			]
+			
+		}
+
+	var myRadar = new Chart(document.getElementById("canvas").getContext("2d")).Radar(radarChartData,{scaleShowLabels : false, pointLabelFontSize : 16, pointLabelFontColor : "#000"});
+	
+	</script>
+
+	      </div>
+      </section>
+	    
+	    <section class="page3">
+	      <div class="page_container">
+          <h1>Education</h1>
+          <h2>B.A. of Computing machines, systems, complexes and networks. Faculty of Computer Sciences <span class="amp">&amp;</span> Information Technologies - Saratov State University.<br />June 2012</h2>
+          <h1>Employment</h1>
+          <dl class="intro">
+            <dt>2010 - 2011</dt>
+            <dd>Worked as a programmer of routers.</dd>
+            <dt>2011 - 2013</dt>
+            <dd>Print designer at a local company that reproduces paintings.</dd>
+            <dt>2013 - Present</dt>
+            <dd>Freelance web designer</dd>
+          </dl>
+          
+  	    </div>
+      </section>
+    </div>
+    <a class="back" href="mailto:moninsergei@gmail.com">Hire me for your next project</a>
+  </div>
+</body>
+</html>
