@@ -12,8 +12,8 @@
 	<link href='http://fonts.googleapis.com/css?family=Pacifico:400' rel='stylesheet' type='text/css'>
 	<!--<script type="text/javascript" src="http://code.jquery.com/jquery-1.9.1.js"></script>-->
         <script type="text/javascript" src="javascript/jquery.js"></script>
-  <script type="text/javascript" src="javascript/jquery.onepage-scroll.js"></script>
-  <script type="text/javascript" src="javascript/Chart.js"></script>
+  <script type="text/javascript" src="javascripts/jquery.onepage-scroll.js"></script>
+  <script type="text/javascript" src="javascripts/Chart.js"></script>
   <link href='stylesheets/onepage-scroll.css' rel='stylesheet' type='text/css'>
   <link href='stylesheets/main.css' rel='stylesheet' type='text/css'>
   <meta name="viewport" content="initial-scale=1, width=device-width, maximum-scale=1, minimum-scale=1, user-scalable=no">
