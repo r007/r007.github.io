@@ -243,7 +243,7 @@
     }
     
     .main section.page1 {
-      background-image: url("gun.gif");
+      background-image: url("../images/gun.gif");
       background-color:#be2826;
       color:#fff;
     }
@@ -271,7 +271,7 @@
     }
     .main section.page2 {
       background-position: top left;
-      background-image:url("blue.gif");
+      background-image:url("../images/blue.gif");
       background-color: #BBE5F9;
       color:#000;
     }
@@ -306,7 +306,7 @@
       color: #FFF;
       }
     .main section.page3 {
-      background-image: url("what.gif");
+      background-image: url("../images/what.gif");
       background-color: #3387c4;
     }
     .main section.page3 .page_container {
